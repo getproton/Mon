@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background: #1C0A24;
+      font-family: 'Poppins', sans-serif;
+      color: #888888;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-size: 15px;
+    }
+    .container {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .tag {
+      background-color: #E669FF;
+      color: white;
+      padding: 2px 8px;
+      font-size: 10px;
+      font-weight: bold;
+      border-radius: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    Voltaris <span class="tag">Featured</span>
+  </div>
+</body>
+</html>
